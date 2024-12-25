@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to exception handling in Python. The function `function_with_uncommon_error` attempts to handle the case where `a` is 0, but there's a logic error in how it handles the exception, leading to unexpected behavior. The solution file shows the correct way to handle the ZeroDivisionError using `try-except` block.
